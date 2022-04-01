@@ -1,0 +1,81 @@
+body{
+    background-image: url(weather.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.content h1{
+    font-size: 100px;
+}
+
+.content h2{
+    margin-top: 0;
+    font-size: 40px;
+}
+
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    margin-top: 5rem;
+    border-radius: 10px;
+}
+
+input{
+    align-items: center;
+    width: 400px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button{
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.inp{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+p{
+    font-weight: bold;
+}
+
+.row-city{
+    display: flex;
+    justify-content: center;
+}
+
+.row-info{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
