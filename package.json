@@ -1,0 +1,27 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "This is the project for understanding about how to access api and use the response",
+  "main": "countries.js",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bharat-Asawale/weather-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bharat-Asawale/weather-app/issues"
+  },
+  "homepage": "https://github.com/Bharat-Asawale/weather-app#readme"
+}

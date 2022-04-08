@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Weather App</title>
+	<link rel="stylesheet" href="./style.css">
+	<script type="module" src="./dist/app.js"></script>
+</head>
+
+<body>
+	<div class="autocomplete" >
+		<input type="text" autocomplete="off" id="cityInput" />
+		<button id="myBtn">Search</button>
+	</div>
+	
+	<div class="container">
+		<p class="error"></p>
+		<div class="row-city">
+			<h1 class="city"></h1>
+		</div>
+		<div class="content">
+			<h1 class="temp">00.00</h1>
+			<h2 class="deg">°C</h2>
+		</div>
+		<div class="row-info">
+			<h2 class="weather"></h2>
+			<h2 class="description"></h2>	
+			<h2 class="temp-min"></h2>
+			<h2 class="temp-max"></h2>
+		</div>
+	</div>
+
+	<!-- <script src="./script.js"></script> -->
+</body>
+
+</html>

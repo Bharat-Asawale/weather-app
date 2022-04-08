@@ -97,8 +97,6 @@ function changeBackground(str) {
   } else if (str  == "Snow"){
     img = "./img/snow.png";
   }
-
-
   document.body.style.backgroundImage = `url(${img})`;
 }
 
